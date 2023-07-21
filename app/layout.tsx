@@ -7,7 +7,6 @@ import { Inter } from 'next/font/google';
 import Head from 'next/head';
 
 import Layout from '@components/organisms/root-layout';
-import MuiThemeContext from '@context/ThemeContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -23,9 +22,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta content="initial-scale=1, width=device-width" name="viewport" />
       </Head>
       <body className={clsx(inter.className, 'h-full')}>
-        <MuiThemeContext>
-          <Layout>{children}</Layout>
-        </MuiThemeContext>
+        <Layout>{children}</Layout>
       </body>
     </html>
   );
