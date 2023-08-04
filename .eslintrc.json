@@ -71,10 +71,8 @@
         "newlines-between": "always",
         "pathGroups": [
           { "pattern": "*", "group": "builtin", "position": "after" },
-    
           { "pattern": "react*", "group": "external", "position": "before" },
           { "pattern": "redux", "group": "external", "position": "before" },
-          { "pattern": "@material-ui/**", "group": "external", "position": "before" }
         ],
         "pathGroupsExcludedImportTypes": ["react"],
         "alphabetize": {

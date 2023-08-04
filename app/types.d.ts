@@ -1,6 +1,1 @@
-export const Routes = {
-  HOME_PAGE: '/',
-  LOGIN_PAGE: '/login',
-  REGISTER_PAGE: '/register',
-  PROPERTIES_PAGE: '/properties',
-};
+// no need types to be exported
